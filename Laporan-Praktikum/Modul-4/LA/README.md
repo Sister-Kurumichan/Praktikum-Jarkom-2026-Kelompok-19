@@ -20,56 +20,96 @@
 | Server DMZ | eth0 | 192.168.20.10/24 | Web Server |
 | Client WAN | eth0 | 172.16.100.10/24 | Host WAN |
 
-## Konfigurasi Tiap Perangkat
+## 3. Konfigurasi Tiap Perangkat
 
-### 1. Mikrotik
+### 3.1 Mikrotik
 
-### 2 Fortigate
+MikroTik dikonfigurasi sebagai router ISP dengan DHCP Client pada interface ether1, IP address pada ether2 dan ether3, NAT masquerade, serta static route menuju jaringan LAN dan DMZ.
 
-### 3. Cisco
+Konfigurasi IP Address, Routing, NAT
 
-### 4. Client LAN
+![Image](images/mikrotik.jpg)
 
-### 5. Client WAN
+### 3.2 Fortigate
 
-## 3. Hasil Pengujian
+FortiGate dikonfigurasi dengan tiga interface, yaitu WAN (port1), INSIDE (port2), dan DMZ (port3). Selain itu ditambahkan static route, firewall policy, dan Virtual IP (VIP).
 
-### 1. Pengujian client lan ke gateway cisco
+Konfigurasi Interface
+
+![Image](images/fortigateinterface.jpg)
+
+Konfigurasi Routing
+
+![Image](images/fortigateroute.jpg)
+
+Konfigurasi Firewall Policy
+
+![Image](images/fortigatepolicy.jpg)
+
+Konfigurasi VIP
+
+![Image](images/fortigatefirewall.jpg)
+
+### 3.3 Cisco Router
+
+Cisco Router dikonfigurasi sebagai gateway jaringan LAN dengan alamat IP pada interface GigabitEthernet0/0 dan GigabitEthernet0/1 serta default route menuju FortiGate.
+
+Konfigurasi Interface
+
+![Image](images/ciscointerface.jpg)
+
+Konfigurasi Routing
+
+![Image](images/ciscoroute.jpg)
+
+### 3.4 Client 
+
+Client LAN
+
+![Image](images/lan.jpg)
+
+Client WAN
+
+![Image](images/wan.jpg)
+
+## 4. Hasil Pengujian
+
+### 4.1 Pengujian client lan ke gateway cisco
 
 ![Image](images/lankecisco.png)
 
-### 2. Pengujian client lan ke fortigate
+### 4.2 Pengujian client lan ke fortigate
 
 ![Image](images/lankefortigate.png)
 
-### 3. Pengujian client lan ke DMZ
+### 4.3 Pengujian client lan ke DMZ
 
 ![Image](images/lankedmz.png)
 
-### 4. Pengujian client lan akses ip dmz
+### 4.4 Pengujian client lan akses ip dmz
 
 ![Image](images/lankeweb.jpg)
 
-### 5. Pengujian client wan ping ke isp mikrotik
+### 4.5 Pengujian client wan ping ke isp mikrotik
 
 ![Image](images/wankemikrotik.jpg)
 
-### 6. Penujian client wan ping ke fortigate
+### 4.6 Penujian client wan ping ke fortigate
 
 ![Image](images/wankefortigate.jpg)
 
-### 7. Pengujian client wan akses http://10.10.10.2
+### 4.7 Pengujian client wan akses http://10.10.10.2
 
 ![Image](images/wankeweb.jpg)
 
-### 8. Pengujian client wan ping client lan
+### 4.8 Pengujian client wan ping client lan
 
 ![Image](images/wankelan.jpg)
 
-### 9. Pengujian client wan ping IP asli DMZ
+### 4.9 Pengujian client wan ping IP asli DMZ
 
 ![Image](images/wankeipaslidmz.jpg)
 
-### 10. Pengujian server dmz ping lan
+### 4.10 Pengujian server dmz ping lan
 
 ![Image](images/dmzkelan.png)
