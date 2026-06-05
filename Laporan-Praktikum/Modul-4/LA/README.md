@@ -113,3 +113,12 @@ Client WAN
 ### 4.10 Pengujian server dmz ping lan
 
 ![Image](images/dmzkelan.png)
+
+## Analisis dan Kesimpulan
+
+Pada tugas modul kali ini, MikroTik berfungsi sebagai router ISP yang menyediakan akses internet serta melakukan NAT menggunakan fitur masquerade. Sementara itu, FortiGate berfungsi sebagai firewall yang memisahkan jaringan WAN, LAN, dan DMZ. Selain itu, FortiGate juga melakukan port forwarding menggunakan Virtual IP (VIP) sehingga layanan web pada DMZ dapat diakses dari jaringan WAN. Cisco Router berfungsi sebagai gateway jaringan LAN dan meneruskan trafik menuju FortiGate. Berdasarkan hasil pengujian, komunikasi antar perangkat berjalan sesuai rancangan topologi.
+
+Praktikum berhasil mengimplementasikan topologi jaringan yang terdiri dari WAN, LAN, dan DMZ menggunakan MikroTik, FortiGate, dan Cisco Router. Fitur routing, firewall policy, NAT, serta Virtual IP (VIP) juga berhasil dikonfigurasi sehingga:
+### * Client LAN dapat berkomunikasi dengan gateway LAN.
+### * FortiGate dapat mengakses internet melalui MikroTik.
+### * Client WAN dapat mengakses layanan web pada DMZ melalui alamat publik yang dikonfigurasi pada FortiGate.
