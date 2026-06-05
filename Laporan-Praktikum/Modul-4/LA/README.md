@@ -73,6 +73,3 @@
 ### 10. Pengujian server dmz ping lan
 
 ![Image](images/dmzkelan.png)
-
-
-![](images/topologi.png)
