@@ -11,3 +11,17 @@
 ![Image](img/Tumod2-2.png)
 ![Image](img/Tumod2-3.png)
 ![Image](img/Tumod2-4.png)
+
+## 3. Konfigurasi MikroTik Router Jakarta
+
+## 4. Konfigurasi Ubuntu Server Jakarta
+
+## 5. Konfigurasi FortiGate Jakarta
+
+![Image](img/Tumod5-1.jpeg)
+![Image](img/Tumod5-2.jpeg)
+![Image](img/Tumod5-3.jpeg)
+
+## 6. Konfigurasi MikroTik ISP
+
+![Image](img/Tumod6-1.jpeg)
