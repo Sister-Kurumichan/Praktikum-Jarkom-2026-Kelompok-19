@@ -16,6 +16,7 @@
 
 ![Image](img/Tumod3-1.png)
 ![Image](img/Tumod3-2.png)
+![Image](img/Tumod3-3.png)
 
 ## 4. Konfigurasi Ubuntu Server Jakarta
 
