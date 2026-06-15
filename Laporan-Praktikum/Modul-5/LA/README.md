@@ -21,6 +21,11 @@
 
 ## 4. Konfigurasi Ubuntu Server Jakarta
 
+![Image](img/Tumod4-1.jpeg)
+![Image](img/Tumod4-2.jpeg)
+![Image](img/Tumod4-3.jpeg)
+![Image](img/Tumod4-4.jpeg)
+
 ## 5. Konfigurasi FortiGate Jakarta
 
 ![Image](img/Tumod5-1.jpeg)
