@@ -42,3 +42,10 @@
 ![Image](img/Tumod7-3456.png)
 ![Image](img/Tumod7-7.png)
 ![Image](img/Tumod7-8.png)
+
+## 8. Konfigurasi FortiGate Surabaya
+
+## 9. Konfigurasi GRE Tunnel dan OSPF over GRE
+
+## 10. Pengujian Akhir
+
