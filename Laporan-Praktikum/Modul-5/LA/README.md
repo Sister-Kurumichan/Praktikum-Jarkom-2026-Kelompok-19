@@ -17,6 +17,7 @@
 ![Image](img/Tumod3-1.png)
 ![Image](img/Tumod3-2.png)
 ![Image](img/Tumod3-3.png)
+![Image](img/Tumod3-45.png)
 
 ## 4. Konfigurasi Ubuntu Server Jakarta
 
@@ -29,3 +30,10 @@
 ## 6. Konfigurasi MikroTik ISP
 
 ![Image](img/Tumod6-1.jpeg)
+
+## 7. Konfigurasi Switch dan MikroTik Surabaya
+
+![Image](img/Tumod7-12.png)
+![Image](img/Tumod7-3456.png)
+![Image](img/Tumod7-7.png)
+![Image](img/Tumod7-8.png)
